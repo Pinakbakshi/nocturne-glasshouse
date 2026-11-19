@@ -70,7 +70,7 @@ The available GitHub Actions timestamps establish this sequence (UTC, 19 Novembe
 | 17:50:45 | First successful run after the Pages workflow/configuration correction |
 | 17:51:14 | A subsequent deployment run also succeeded |
 
-**Measured elapsed window:** 10 minutes 32 seconds from the first run start (17:40:42) to the first successful run start (17:51:14 is the later successful run; the first successful run began at 17:50:45, making the first-success window 10 minutes 3 seconds).
+**Measured elapsed window:** 10 minutes 3 seconds from the first run start (17:40:42) to the first successful run start (17:50:45). The subsequent successful run began at 17:51:14.
 
 This is wall-clock elapsed time across the recorded automation runs, not a measurement of continuous model compute time. It includes GitHub Actions queue/runtime and any human-side repository setting changes. The exact active AI-only debugging time and exact duration of the human intervention cannot be reconstructed reliably from the available timestamps, so they are not presented as measured values.
 
